@@ -67,8 +67,19 @@ async fn main() -> Result<(), ()> {
                 { "name": "CentOS 8", "vmid": 3001, "link": "https://images.cdn.convoypanel.com/centos/centos-8-amd64.vma.zst" }
             ]
         },
-        { "name": "Debian", "templates": [{ "name": "Debian 11", "vmid": 4000, "link": "https://images.cdn.convoypanel.com/debian/debian-11-amd64.vma.zst" }] },
-        { "name": "Rocky Linux", "templates": [{ "name": "Rocky Linux 8", "vmid": 5000, "link": "https://images.cdn.convoypanel.com/rocky-linux/rocky-linux-8-amd64.vma.zst" }] }
+        {
+            "name": "Rocky Linux",
+            "templates": [
+                { "name": "Rocky Linux 8", "vmid": 5000, "link": "https://images.cdn.convoypanel.com/rocky-linux/rocky-linux-8-amd64.vma.zst" },
+                { "name": "Rocky Linux 9", "vmid": 5001, "link": "https://images.cdn.convoypanel.com/rocky-linux/rocky-linux-9-amd64.vma.zst" }
+            ]
+        },
+        { 
+            "name": "Debian", 
+            "templates": [
+                { "name": "Debian 11", "vmid": 4000, "link": "https://images.cdn.convoypanel.com/debian/debian-11-amd64.vma.zst" }
+            ] 
+        }
     ]
     "#;
 
